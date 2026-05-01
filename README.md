@@ -1,13 +1,10 @@
-## # Hi, I'm Susanta Hazra 👋
+# Hi, I'm Susanta Hazra 👋
 
 AI & ML Engineer | NLP | LLMs | RAG | MLOps
 
 Focused on turning data into meaningful impact for better lives and business growth.👋
 
-<!--
-**Susanta2025-lab/Susanta2025-lab** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-
+------------------
 
 ## 🚀 About Me
 - ML Engineer / AI Engineer specializing in Machine Learning, Deep Learning, and NLP
@@ -32,7 +29,7 @@ Focused on turning data into meaningful impact for better lives and business gro
 I approach problems with scientific design, structured thinking, and a focus on clarity, experimentation, and timely delivery of results.
 
 ## 📌 Focus
-Building intelligent systems that bridge data, AI, and real-world business value.
+Building intelligent systems that bridge data, AI, life and real-world business value.
 
 ## 🖼️ Profile Image
 ![Profile Image](https://github.com/Susanta2025-lab/Susanta2025-lab/blob/main/profile.png?raw=true)
