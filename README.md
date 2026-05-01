@@ -32,4 +32,4 @@ I approach problems with scientific design, structured thinking, and a focus on 
 Building intelligent systems that bridge data, AI, life and real-world business value.
 
 ## 🖼️ Profile Image
-![Profile Image](https://github.com/Susanta2025-lab/Susanta2025-lab/blob/main/profile.png?raw=true)
+![Profile Image](https://github.com/Susanta2025-lab/Susanta2025-lab/blob/main/Image_Susanta.png?raw=true)
