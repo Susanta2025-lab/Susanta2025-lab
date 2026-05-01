@@ -30,6 +30,3 @@ I approach problems with scientific design, structured thinking, and a focus on 
 
 ## 📌 Focus
 Building intelligent systems that bridge data, AI, life and real-world business value.
-
-## 🖼️ Profile Image
-![Profile Image](https://raw.githubusercontent.com/Susanta2025-lab/Susanta2025-lab/main/Image_Susanta.jpg)
