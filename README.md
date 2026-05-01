@@ -3,14 +3,36 @@
 <!--
 **Susanta2025-lab/Susanta2025-lab** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+# Hi, I'm Susanta Hazra 👋
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+AI & ML Engineer | NLP | LLMs | RAG | MLOps
+
+AI & ML Engineer focused on turning data into meaningful impact for better lives and business growth.
+
+## 🚀 About Me
+- ML Engineer / AI Engineer specializing in Machine Learning, Deep Learning, and NLP
+- Building production-grade Generative AI systems with LLMs, RAG pipelines, and AI Agents
+- Focused on scalable, reliable, and production-ready AI solutions
+- Strong interest in transforming data into actionable insights for real-world impact
+
+## 🧠 Expertise
+- Large Language Models (LLMs) & Natural Language Processing (NLP)
+- Retrieval-Augmented Generation (RAG)
+- Machine Learning & Deep Learning
+- MLOps & Model Deployment
+- AI System Design & Evaluation
+
+## ⚙️ What I Build
+- End-to-end ML pipelines
+- NLP-powered applications
+- LLM-based intelligent systems
+- Scalable AI agents for automation and decision-making
+
+## 🌱 Philosophy
+I approach problems with scientific design, structured thinking, and a focus on clarity, experimentation, and timely delivery of results.
+
+## 📌 Focus
+Building intelligent systems that bridge data, AI, and real-world business value.
+
+## 🖼️ Profile Image
+![Profile Image](https://github.com/Susanta2025-lab/Susanta2025-lab/blob/main/profile.png?raw=true)
