@@ -7,8 +7,8 @@ Focused on turning data into meaningful impact for better lives and business gro
 ------------------
 
 ## 🚀 About Me
-- **Data & ML Professional** specializing in Machine Learning, Deep Learning, MLOps, and NLP.
-- Leveraging over a decade of experience in rigorous scientific research and data modeling to build highly reliable, production-ready AI solutions.
+- **Data & ML Professional** specializing in Artificial Intelligence, Machine Learning, Deep Learning, MLOps, RAG, LLMs and NLP.
+- Leveraging over a decade of experience in rigorous scientific research and development to build highly reliable, production-ready AI solutions.
 - Passionate about transitioning complex sandbox experiments into scalable, containerized cloud workflows.
 
 ## 🎥 Featured Presentation: My AI & MLOps Journey
