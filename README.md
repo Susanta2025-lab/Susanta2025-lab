@@ -11,11 +11,11 @@ Focused on turning data into meaningful impact for better lives and business gro
 - Leveraging over a decade of experience in rigorous scientific research and data modeling to build highly reliable, production-ready AI solutions.
 - Passionate about transitioning complex sandbox experiments into scalable, containerized cloud workflows.
 
-## 🎥 Career Showcase & Professional Journey
+## 🎥 Featured Presentation: My AI & MLOps Journey
 
-[![Watch my AI Career Reel](assets/reel_preview.gif)](https://www.linkedin.com/feed/update/urn:li:activity:7460593541598199809/)
+[![Watch my AI Career Reel](reel_teaser.gif)](https://www.linkedin.com/feed/update/urn:li:activity:7460593541598199809/)
 
-*Click the preview above to view the full 30-second video presentation and discussion on LinkedIn.*
+*Click the preview animation above to watch my full 25-second video spotlight showcasing my transition from Chemical Science to Production AI, my core tech stack, and my latest engineering projects on LinkedIn!*
 
 ## 🚀 Featured Production Projects
 
