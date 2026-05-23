@@ -46,7 +46,7 @@ Beyond traditional machine learning frameworks, I design and orchestrate statefu
 - **Languages & Libraries:** Python (Pandas, NumPy, Scikit-Learn), SQL, Bash
 - **Machine Learning & NLP:** XGBoost, Random Forest, Logistic Regression, Time-Series Forecasting, TF-IDF, NLTK
 - **AI Frameworks:** LangGraph, LangChain, Advanced Prompt Engineering, Vector Databases
-- **MLOps & Infrastructure:** Docker, Microsoft Azure ML Studio, FastAPI, Git, Joblib, Virtual Environments (`pyenv`)
+- **MLOps & Infrastructure:** Docker, Microsoft Azure ML Studio, FastAPI, Git, Joblib, Virtual Environments
 
 ---
 
