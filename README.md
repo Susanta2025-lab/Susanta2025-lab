@@ -20,6 +20,15 @@ Focused on turning data into meaningful impact for better lives and business gro
 ## 🚀 Featured Production Projects
 
 ### 🔍 [Fatocheck: Cloud-Tuned Fake News Classification API](https://github.com/Susanta2025-lab/Fatocheck)
+![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-API-green?logo=fastapi)
+![Docker](https://img.shields.io/badge/Docker-Container-blue?logo=docker)
+![Render](https://img.shields.io/badge/Render-Deployed-purple?logo=render&logoColor=white)
+![ML](https://img.shields.io/badge/ML-XGBoost%20%7C%20Sklearn-orange)
+![Status](https://img.shields.io/badge/Status-Production--Ready-brightgreen)
+
+[![Deployed on Render](https://img.shields.io/badge/Deployed-Render-purple?logo=render&logoColor=white)](https://fatocheck.onrender.com/docs)
+
 An end-to-end text classification microservice built to detect fabricated news headlines and articles using high-dimensional NLP modeling and a containerized infrastructure.
 - **Cloud Optimization:** Deployed a production-ready **FastAPI** microservice using **Docker** and hosted on **Render**, enabling scalable, reproducible, and low-latency inference in a cloud environment.
 - **Resource Management:** Implemented an efficient NLP pipeline using **TF-IDF vectorization** for high-dimensional sparse text data and an optimized **XGBoost-based classifier**, balancing accuracy with fast inference performance.
