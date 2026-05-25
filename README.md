@@ -27,9 +27,10 @@ Collaborated within a cross-functional European engineering team to develop an e
 
 ### 🔍 [Fatocheck: Cloud-Tuned Fake News Classification API](https://github.com/Susanta2025-lab/Fatocheck)
 An end-to-end text classification microservice built to detect fabricated news headlines and articles using high-dimensional NLP modeling and a containerized infrastructure.
-- **Cloud Optimization:** Migrated localized workloads to **Microsoft Azure ML Studio**, managing distributed hyperparameter tuning (`RandomizedSearchCV`) under a strict 2-core compute instance.
-- **Resource Management:** Utilized XGBoost histogram binning (`tree_method='hist'`) and isolated thread allocations to process a 10,000-feature sparse TF-IDF matrix, hitting **97.08% peak test accuracy**.
-- **Production Assembly:** Encapsulated fitted feature extractions directly inside Scikit-Learn `Pipeline` structures to eliminate inference data leakage, serving predictions via **FastAPI** and **Docker**.
+- **Cloud Optimization:** Deployed a production-ready **FastAPI** microservice using **Docker** and hosted on **Render**, enabling scalable, reproducible, and low-latency inference in a cloud environment.
+- **Resource Management:** Implemented an efficient NLP pipeline using **TF-IDF vectorization** for high-dimensional sparse text data and an optimized **XGBoost-based classifier**, balancing accuracy with fast inference performance.
+- **Production Assembly:** Designed a robust Scikit-Learn `Pipeline` integrating preprocessing and model inference to ensure consistency between training and deployment, with a REST API delivering real-time predictions and probability scores.
+- **Next Step:** Evaluate and integrate a **Transformer-based model** to improve contextual understanding of text, followed by building and deploying an interactive **Streamlit web application** for end-user accessibility.
 
 ---
 
