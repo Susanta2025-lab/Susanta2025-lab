@@ -19,12 +19,6 @@ Focused on turning data into meaningful impact for better lives and business gro
 
 ## 🚀 Featured Production Projects
 
-### ⚡ [Grid Intelligence: Time-Series Energy Forecasting](https://github.com/xucenying/grid-intelligence)
-Collaborated within a cross-functional European engineering team to develop an end-to-end time-series forecasting infrastructure predicting energy pricing dynamics across the German grid.
-- **Data Engineering:** Designed robust pre-processing pipelines to handle high-frequency, volatile grid data streams, ensuring clean sequential alignment.
-- **Modeling Rigor:** Implemented advanced statistical and machine learning architectures optimized to capture complex seasonal variations and volatile market price spikes.
-- **System Synchronization:** Managed cross-border version control and modular system components to prepare the codebase for seamless production deployment.
-
 ### 🔍 [Fatocheck: Cloud-Tuned Fake News Classification API](https://github.com/Susanta2025-lab/Fatocheck)
 An end-to-end text classification microservice built to detect fabricated news headlines and articles using high-dimensional NLP modeling and a containerized infrastructure.
 - **Cloud Optimization:** Deployed a production-ready **FastAPI** microservice using **Docker** and hosted on **Render**, enabling scalable, reproducible, and low-latency inference in a cloud environment.
@@ -32,7 +26,15 @@ An end-to-end text classification microservice built to detect fabricated news h
 - **Production Assembly:** Designed a robust Scikit-Learn `Pipeline` integrating preprocessing and model inference to ensure consistency between training and deployment, with a REST API delivering real-time predictions and probability scores.
 - **Next Step:** Evaluate and integrate a **Transformer-based model** to improve contextual understanding of text, followed by building and deploying an interactive **Streamlit web application** for end-user accessibility.
 
----
+### ⚡ [Grid Intelligence: Time-Series Energy Forecasting](https://github.com/xucenying/grid-intelligence)
+Collaborated within a cross-functional European engineering team to build an end-to-end time-series forecasting system for energy price prediction in the German (DE-LU) electricity market.
+
+- **Data Engineering & Automation:** Designed a cloud-based scheduling pipeline to automatically fetch daily ENTSO-E electricity market data and weather signals for the DE-LU zone, ensuring continuous and reliable data ingestion.
+- **Model Experimentation:** Evaluated multiple forecasting and machine learning approaches, including **Prophet, ARIMA, XGBoost, LSTM, and Transformer-based architectures**, to benchmark performance on complex energy time-series patterns.
+- **Advanced Modeling:** Developed a **PyTorch-based Transformer model (V2)** for sequence forecasting alongside an **XGBoost-based spike detection model** to capture extreme price volatility.
+- **MLOps & Deployment:** Implemented an end-to-end MLOps pipeline with **FastAPI, Docker, and GCP deployment**, integrating model serving with a scalable backend and building a **Streamlit-based UI** for interactive visualization and inference.
+
+-------
 
 ## 🤖 Advanced AI & Agentic Capabilities
 Beyond traditional machine learning frameworks, I design and orchestrate stateful Generative AI applications and custom Retrieval-Augmented Generation (RAG) pipelines certified by **DeepLearning.AI**:
