@@ -40,7 +40,8 @@ An end-to-end text classification microservice built to detect fabricated news h
 ![Docker](https://img.shields.io/badge/Docker-Containerization-2496ED?logo=docker&logoColor=white)
 ![MLOps](https://img.shields.io/badge/MLOps-Production-purple?logo=mlflow&logoColor=white)
 ![GCP Deployment](https://img.shields.io/badge/GCP-Deployment-4285F4?logo=googlecloud&logoColor=white)
-Collaborated within a cross-functional European engineering team to build an end-to-end time-series forecasting system for energy price prediction in the German (DE-LU) electricity market. [![Deployed on Streamlit](https://img.shields.io/badge/Deployed-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://grid-intelligence.streamlit.app/)
+
+An end-to-end time-series forecasting system for energy price prediction in the German (DE-LU) electricity market. [![Deployed on Streamlit](https://img.shields.io/badge/Deployed-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://grid-intelligence.streamlit.app/)
 
 - **Data Engineering & Automation:** Designed a cloud-based scheduling pipeline to automatically fetch daily ENTSO-E electricity market data and weather signals for the DE-LU zone, ensuring continuous and reliable data ingestion.
 - **Model Experimentation:** Evaluated multiple forecasting and machine learning approaches, including **Prophet, ARIMA, XGBoost, LSTM, and Transformer-based architectures**, to benchmark performance on complex energy time-series patterns.
