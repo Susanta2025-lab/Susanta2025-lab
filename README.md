@@ -27,7 +27,7 @@ Focused on turning data into meaningful impact for better lives and business gro
 ![ML](https://img.shields.io/badge/ML-XGBoost%20%7C%20Sklearn-orange)
 ![Status](https://img.shields.io/badge/Status-Production--Ready-brightgreen)
 
-An end-to-end text classification microservice built to detect fabricated news headlines and articles using high-dimensional NLP modeling and a containerized infrastructure. [![Deployed on Render](https://img.shields.io/badge/Deployed-Render-purple?logo=render&logoColor=white)](https://fatocheck.onrender.com/docs)
+An end-to-end text classification microservice built to detect fabricated news headlines and articles using high-dimensional NLP modeling and a containerized infrastructure.
 - **Cloud Optimization:** Deployed a production-ready **FastAPI** microservice using **Docker** and hosted on **Render**, enabling scalable, reproducible, and low-latency inference in a cloud environment.
 - **Resource Management:** Implemented an efficient NLP pipeline using **TF-IDF vectorization** for high-dimensional sparse text data and an optimized **XGBoost-based classifier**, balancing accuracy with fast inference performance.
 - **Production Assembly:** Designed a robust Scikit-Learn `Pipeline` integrating preprocessing and model inference to ensure consistency between training and deployment, with a REST API delivering real-time predictions and probability scores.
@@ -41,7 +41,7 @@ An end-to-end text classification microservice built to detect fabricated news h
 ![MLOps](https://img.shields.io/badge/MLOps-Production-purple?logo=mlflow&logoColor=white)
 ![GCP Deployment](https://img.shields.io/badge/GCP-Deployment-4285F4?logo=googlecloud&logoColor=white)
 
-An end-to-end time-series forecasting system for energy price prediction in the German (DE-LU) electricity market. [![Deployed on Streamlit](https://img.shields.io/badge/Deployed-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://grid-intelligence.streamlit.app/)
+An end-to-end time-series forecasting system for energy price prediction in the German (DE-LU) electricity market.
 
 - **Data Engineering & Automation:** Designed a cloud-based scheduling pipeline to automatically fetch daily ENTSO-E electricity market data and weather signals for the DE-LU zone, ensuring continuous and reliable data ingestion.
 - **Model Experimentation:** Evaluated multiple forecasting and machine learning approaches, including **Prophet, ARIMA, XGBoost, LSTM, and Transformer-based architectures**, to benchmark performance on complex energy time-series patterns.
