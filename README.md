@@ -29,6 +29,13 @@ Focused on turning data into meaningful impact for better lives and business gro
 ![Streamlit](https://img.shields.io/badge/Streamlit-UI-FF4B4B?logo=streamlit)
 ![Status](https://img.shields.io/badge/Status-Production--Ready-brightgreen)
 
+**Project Status:** ✅ **Active & Progressing**
+- **Repository Age:** 10 days (Created May 28, 2026)
+- **Last Update:** June 6, 2026 (UTC)
+- **Stars:** 1 ⭐
+- **Commits:** 30+ active commits with continuous development
+- **Open Issues:** 0 (No blockers - smooth development)
+
 A comprehensive local AI infrastructure platform combining **Ollama, FastAPI, ChromaDB, and LangGraph** for production-grade multi-LLM orchestration, semantic vector search, and agentic workflows.
 
 **Recent Achievements:**
@@ -51,21 +58,37 @@ A comprehensive local AI infrastructure platform combining **Ollama, FastAPI, Ch
 ![FastAPI](https://img.shields.io/badge/FastAPI-API-green?logo=fastapi)
 ![Docker](https://img.shields.io/badge/Docker-Container-blue?logo=docker)
 ![Render](https://img.shields.io/badge/Render-Deployed-purple?logo=render&logoColor=white)
-![ML](https://img.shields.io/badge/ML-XGBoost%20%7C%20Sklearn-orange)
-![Status](https://img.shields.io/badge/Status-Active%20Development-yellow)
+![ML](https://img.shields.io/badge/ML-XGBoost%20%7C%20BERT-orange)
+![Status](https://img.shields.io/badge/Status-Production--Ready-brightgreen)
 
-An end-to-end text classification microservice built to detect fabricated news headlines and articles using high-dimensional NLP modeling and a containerized infrastructure.
+**Project Status:** ✅ **Production-Ready & Deployed**
+- **Repository Age:** 33 days (Created ~May 5, 2026)
+- **Last Update:** June 2, 2026
+- **Open Issues:** 0 (Development complete, stable)
+- **Language Composition:** 98% Jupyter Notebook | 1.9% Python | 0.1% Other
+- **Live API:** [fatocheck.onrender.com/docs](https://fatocheck.onrender.com/docs)
 
-**Current Capabilities:**
-- **Cloud Optimization:** Deployed a production-ready **FastAPI** microservice using **Docker** and hosted on **Render**, enabling scalable, reproducible, and low-latency inference in a cloud envi[...]
-- **Resource Management:** Implemented an efficient NLP pipeline using **TF-IDF vectorization** for high-dimensional sparse text data and an optimized **XGBoost-based classifier**, balancing accur[...]
-- **Production Assembly:** Designed a robust Scikit-Learn `Pipeline` integrating preprocessing and model inference to ensure consistency between training and deployment, with a REST API delivering[...]
+An end-to-end text classification microservice built to detect fabricated news headlines and articles using multi-tiered hybrid model architectures—from classical ML to state-of-the-art Transformers.
+
+**Production Capabilities:**
+- **Dual-Model Architecture:**
+  - **Version 1 (Classical ML):** XGBoost pipeline with TF-IDF vectorization delivering **97.08% test accuracy** for fast inference
+  - **Version 2 (Transformer):** BERT-base-uncased fine-tuned model achieving **99.17% accuracy** and **99.24% F1-score** for superior contextual understanding
+- **Cloud Optimization:** Deployed production-ready **FastAPI** microservices using **Docker** with dual API endpoints (`app-v1.py` and `app-v2.py`) on **Render** for scalable, reproducible, low-latency inference
+- **Versioned Artifacts:** Robust Scikit-Learn `Pipeline` structures with separate artifact formats (`.joblib` for classical models and `safetensors` for Transformers) managed in version-controlled directories
+- **Scalable REST API:** Dual FastAPI services supporting both model types with consistent interface, health checks, and real-time classification predictions over HTTP
+
+**Production Deployment Details:**
+- ✅ **XGBoost Model (V1):** Serialized pipeline ready for fast inference, containerized with `Dockerfile.v1`
+- ✅ **BERT Transformer (V2):** Fine-tuned on fake news dataset, stored as safetensors format to manage model size efficiently (note: large model stored locally with cloud-ready architecture)
+- ✅ **Multi-Container Strategy:** Separate Docker configurations for each model version enabling selective deployment based on latency/accuracy tradeoffs
+- ✅ **Production API:** Live on Render with health checks, model selection endpoints, and robust error handling
 
 **Next Steps:** 
-- 🎯 Evaluate and integrate a **Transformer-based model** to improve contextual understanding of text
-- 🎯 Build and deploy an interactive **Streamlit web application** for user-friendly fake news detection interface
-- 🎯 Implement model performance monitoring and continuous retraining pipelines
+- 🎯 Implement model performance monitoring and retraining pipelines
+- 🎯 Build interactive **Streamlit web application** for user-friendly fake news detection interface
 - 🎯 Expand test coverage and validation datasets
+- 🎯 Optimize model serving with batch prediction endpoints
 
 ### ⚡ [Grid Intelligence: Time-Series Energy Forecasting](https://github.com/xucenying/grid-intelligence)
 ![Time Series](https://img.shields.io/badge/Time%20Series-Forecasting-blueviolet?logo=plotly&logoColor=white)
@@ -95,8 +118,8 @@ Beyond traditional machine learning frameworks, I design and orchestrate statefu
 ## 🧠 Technical Expertise
 
 - **Languages & Libraries:** Python (Pandas, NumPy, Scikit-Learn), SQL, Bash
-- **Machine Learning & NLP:** XGBoost, Random Forest, Logistic Regression, Time-Series Forecasting, TF-IDF, NLTK
-- **AI Frameworks:** LangGraph, LangChain, Advanced Prompt Engineering, Vector Databases
+- **Machine Learning & NLP:** XGBoost, Random Forest, Logistic Regression, Time-Series Forecasting, TF-IDF, NLTK, BERT, Transformers
+- **AI Frameworks:** LangGraph, LangChain, Advanced Prompt Engineering, Vector Databases, Hugging Face Transformers
 - **MLOps & Infrastructure:** Docker, Microsoft Azure ML Studio, FastAPI, Git, Joblib, Virtual Environments
 - **LLM Infrastructure:** Ollama, ChromaDB, Semantic Search, Multi-LLM Orchestration
 
