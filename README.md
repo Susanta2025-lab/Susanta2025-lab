@@ -15,7 +15,7 @@ Focused on turning data into meaningful impact for better lives and business gro
 
 [![Watch my AI Career Reel](reel_teaser.gif)](https://www.linkedin.com/feed/update/urn:li:activity:7460593541598199809/)
 
-*Click the preview animation above to watch my full 25-second video spotlight showcasing my transition from Chemical Science to Production AI, my core tech stack, and my latest engineering project[...]*
+*Click the preview animation above to watch my full 25-second video spotlight showcasing my transition from Chemical Science to Production AI, my core tech stack, and my latest engineering project[...]
 
 ## 🚀 Featured Production Projects
 
@@ -26,15 +26,32 @@ Focused on turning data into meaningful impact for better lives and business gro
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-Vector%20Store-FF1493?logo=database)
 ![LangGraph](https://img.shields.io/badge/LangGraph-Agentic%20Workflows-412991?logo=python)
 ![Docker](https://img.shields.io/badge/Docker-Container-blue?logo=docker)
+![Streamlit](https://img.shields.io/badge/Streamlit-UI-FF4B4B?logo=streamlit)
 ![Status](https://img.shields.io/badge/Status-Production--Ready-brightgreen)
+
+**Project Status:** ✅ **Active & Progressing**
+- **Repository Age:** 10 days (Created May 28, 2026)
+- **Last Update:** June 6, 2026 (UTC)
+- **Stars:** 1 ⭐
+- **Commits:** 30+ active commits with continuous development
+- **Open Issues:** 0 (No blockers - smooth development)
 
 A comprehensive local AI infrastructure platform combining **Ollama, FastAPI, ChromaDB, and LangGraph** for production-grade multi-LLM orchestration, semantic vector search, and agentic workflows.
 
-- **Multi-LLM Orchestration:** Unified interface to seamlessly switch between and orchestrate multiple open-source LLMs (Llama, Mistral, etc.) using **Ollama**, enabling cost-effective and privacy-preserving inference.
-- **Advanced RAG Pipeline:** Built precision retrieval-augmented generation with **ChromaDB** vector database for semantic search, document chunking strategies, and context injection to minimize LLM hallucinations.
-- **Stateful Agentic Workflows:** Designed cyclical multi-agent architectures using **LangGraph** with state persistence, fallback routines, and collaborative agent loops for complex reasoning tasks.
+**Recent Achievements:**
+- ✅ **Streamlit UI Complete** - Full user interface integrated and operational (Latest commits: June 6)
+- ✅ **API & Retriever Optimization** - Backend API and RAG retriever modules refined for production
+- ✅ **RAG Documents Ready** - Document corpus for retrieval-augmented generation prepared and indexed
+- ✅ **Comprehensive Documentation** - Project README and technical documentation updated
+
+**Core Capabilities:**
+- **Multi-LLM Orchestration:** Unified interface to seamlessly switch between and orchestrate multiple open-source LLMs (Llama, Mistral, etc.) using **Ollama**, enabling cost-effective and privacy[...]
+- **Advanced RAG Pipeline:** Built precision retrieval-augmented generation with **ChromaDB** vector database for semantic search, document chunking strategies, and context injection to minimize L[...]
+- **Stateful Agentic Workflows:** Designed cyclical multi-agent architectures using **LangGraph** with state persistence, fallback routines, and collaborative agent loops for complex reasoning tas[...]
 - **Production Backend:** Developed scalable **FastAPI** microservices with containerized **Docker** deployment, enabling rapid iteration and reproducible AI workflows at scale.
-- **Next Steps:** Integrate advanced retrieval augmentation techniques, implement dynamic prompt optimization, and add monitoring dashboards for production observability.
+- **Interactive User Interface:** Built **Streamlit** web application providing intuitive access to all orchestration and RAG capabilities.
+
+**Next Steps:** Integrate advanced retrieval augmentation techniques, implement dynamic prompt optimization, and add monitoring dashboards for production observability.
 
 ### 🔍 [Fatocheck: Cloud-Tuned Fake News Classification API](https://github.com/Susanta2025-lab/Fatocheck)
 ![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python&logoColor=white)
