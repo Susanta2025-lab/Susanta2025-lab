@@ -29,13 +29,6 @@ Focused on turning data into meaningful impact for better lives and business gro
 ![Streamlit](https://img.shields.io/badge/Streamlit-UI-FF4B4B?logo=streamlit)
 ![Status](https://img.shields.io/badge/Status-Production--Ready-brightgreen)
 
-**Project Status:** ✅ **Active & Progressing**
-- **Repository Age:** 10 days (Created May 28, 2026)
-- **Last Update:** June 6, 2026 (UTC)
-- **Stars:** 1 ⭐
-- **Commits:** 30+ active commits with continuous development
-- **Open Issues:** 0 (No blockers - smooth development)
-
 A comprehensive local AI infrastructure platform combining **Ollama, FastAPI, ChromaDB, and LangGraph** for production-grade multi-LLM orchestration, semantic vector search, and agentic workflows.
 
 **Recent Achievements:**
@@ -60,13 +53,6 @@ A comprehensive local AI infrastructure platform combining **Ollama, FastAPI, Ch
 ![Render](https://img.shields.io/badge/Render-Deployed-purple?logo=render&logoColor=white)
 ![ML](https://img.shields.io/badge/ML-XGBoost%20%7C%20Sklearn-orange)
 ![Status](https://img.shields.io/badge/Status-Active%20Development-yellow)
-
-**Project Status:** 🔄 **Active Development & Refinement**
-- **Repository Age:** 33 days (Created ~May 5, 2026)
-- **Last Update:** June 2, 2026
-- **Stars:** 0
-- **Open Issues:** 0 (Development proceeding smoothly)
-- **Language Composition:** 98% Jupyter Notebook | 1.9% Python | 0.1% Other
 
 An end-to-end text classification microservice built to detect fabricated news headlines and articles using high-dimensional NLP modeling and a containerized infrastructure.
 
