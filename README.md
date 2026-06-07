@@ -59,13 +59,27 @@ A comprehensive local AI infrastructure platform combining **Ollama, FastAPI, Ch
 ![Docker](https://img.shields.io/badge/Docker-Container-blue?logo=docker)
 ![Render](https://img.shields.io/badge/Render-Deployed-purple?logo=render&logoColor=white)
 ![ML](https://img.shields.io/badge/ML-XGBoost%20%7C%20Sklearn-orange)
-![Status](https://img.shields.io/badge/Status-Production--Ready-brightgreen)
+![Status](https://img.shields.io/badge/Status-Active%20Development-yellow)
+
+**Project Status:** 🔄 **Active Development & Refinement**
+- **Repository Age:** 33 days (Created ~May 5, 2026)
+- **Last Update:** June 2, 2026
+- **Stars:** 0
+- **Open Issues:** 0 (Development proceeding smoothly)
+- **Language Composition:** 98% Jupyter Notebook | 1.9% Python | 0.1% Other
 
 An end-to-end text classification microservice built to detect fabricated news headlines and articles using high-dimensional NLP modeling and a containerized infrastructure.
+
+**Current Capabilities:**
 - **Cloud Optimization:** Deployed a production-ready **FastAPI** microservice using **Docker** and hosted on **Render**, enabling scalable, reproducible, and low-latency inference in a cloud envi[...]
 - **Resource Management:** Implemented an efficient NLP pipeline using **TF-IDF vectorization** for high-dimensional sparse text data and an optimized **XGBoost-based classifier**, balancing accur[...]
 - **Production Assembly:** Designed a robust Scikit-Learn `Pipeline` integrating preprocessing and model inference to ensure consistency between training and deployment, with a REST API delivering[...]
-- **Next Step:** Evaluate and integrate a **Transformer-based model** to improve contextual understanding of text, followed by building and deploying an interactive **Streamlit web application** f[...]
+
+**Next Steps:** 
+- 🎯 Evaluate and integrate a **Transformer-based model** to improve contextual understanding of text
+- 🎯 Build and deploy an interactive **Streamlit web application** for user-friendly fake news detection interface
+- 🎯 Implement model performance monitoring and continuous retraining pipelines
+- 🎯 Expand test coverage and validation datasets
 
 ### ⚡ [Grid Intelligence: Time-Series Energy Forecasting](https://github.com/xucenying/grid-intelligence)
 ![Time Series](https://img.shields.io/badge/Time%20Series-Forecasting-blueviolet?logo=plotly&logoColor=white)
