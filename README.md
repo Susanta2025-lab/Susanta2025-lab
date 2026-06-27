@@ -12,7 +12,7 @@ My work focuses on transforming AI concepts into modular, observable, maintainab
 
 - AI Engineer specializing in Generative AI, LLMs, Retrieval-Augmented Generation (RAG), Agentic AI, and MLOps.
 - Building production-oriented AI systems using modern orchestration, retrieval, and deployment frameworks.
-- Leveraging 12+ years of scientific research experience to bring rigorous analytical thinking, reproducibility, and system reliability into AI Engineering.
+- Leveraging many years of scientific research experience to bring rigorous analytical thinking, reproducibility, and system reliability into AI Engineering.
 - Passionate about designing AI architectures that bridge experimentation and real-world delivery.
 
 ---
