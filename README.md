@@ -11,7 +11,6 @@ My work focuses on transforming AI concepts into modular, maintainable, deployab
 ## 🚀 About Me
 
 - AI Engineer specializing in Generative AI, LLM applications, RAG, AI Agents, and MLOps
-- PhD in Chemistry with 12+ years of scientific research experience
 - Building production-oriented AI systems from architecture to deployment
 - Passionate about scalable AI architectures, observability, maintainability, and real-world impact
 - Currently focused on enterprise AI applications, intelligent automation, and agentic workflows
