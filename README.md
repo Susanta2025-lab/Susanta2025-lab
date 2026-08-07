@@ -3,7 +3,7 @@
   <source media="(prefers-color-scheme: light)" srcset="./assets/github-profile-banner-light.svg">
   <img
     alt="Susanta Hazra — AI Engineer building production-oriented AI systems"
-    src="./assets/github-profile-banner-light.svg"
+    src="./assets/github-profile-banner-dark.svg"
     width="100%"
   >
 </picture>
