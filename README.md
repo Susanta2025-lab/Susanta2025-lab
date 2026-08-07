@@ -71,25 +71,30 @@ Local multi-LLM RAG and agent orchestration platform demonstrating semantic rout
 
 ## FatoCheck — Fake News Detection API
 
-[Repository](https://github.com/Susanta2025-lab/Fatocheck)
+Deployed NLP classification system using a tuned **TF-IDF + XGBoost** pipeline, with local fine-tuned **BERT** inference, a FastAPI backend, Streamlit frontend, Docker, and automated CI.
 
-![Python](https://img.shields.io/badge/Python-FastAPI-009688?logo=python&logoColor=white)
-![XGBoost](https://img.shields.io/badge/Production-TF--IDF_%2B_XGBoost-orange)
-![Accuracy](https://img.shields.io/badge/Test_Accuracy-~97.08%25-brightgreen)
-![Docker](https://img.shields.io/badge/Docker-Render-2496ED?logo=docker&logoColor=white)
-![BERT](https://img.shields.io/badge/BERT-Local_%2F_Planned_Cloud-8B5CF6)
+<p>
+  <img src="https://img.shields.io/badge/FastAPI-REST%20API-009688?logo=fastapi&logoColor=white" alt="FastAPI">
+  <img src="https://img.shields.io/badge/XGBoost-Production%20Model-337AB7" alt="XGBoost">
+  <img src="https://img.shields.io/badge/BERT-Local%20Inference-FFD21E?logo=huggingface&logoColor=black" alt="BERT">
+  <img src="https://img.shields.io/badge/Streamlit-Live%20Demo-FF4B4B?logo=streamlit&logoColor=white" alt="Streamlit">
+  <img src="https://img.shields.io/badge/Docker-Containerized-2496ED?logo=docker&logoColor=white" alt="Docker">
+  <img src="https://img.shields.io/badge/Render-Live%20API-46E3B7?logo=render&logoColor=black" alt="Render">
+  <img src="https://github.com/Susanta2025-lab/Fatocheck/actions/workflows/ci.yml/badge.svg" alt="CI">
+</p>
 
-Deployed NLP classification API using a tuned TF-IDF + XGBoost pipeline, with local fine-tuned BERT inference, Docker, CI, FastAPI, and a Streamlit demo.
+**[Live Demo](https://fatocheck-ai.streamlit.app/)** · **[Live API](https://fatocheck.onrender.com/docs)** · **[Repository](https://github.com/Susanta2025-lab/Fatocheck)**
 
-### Highlights
+**Highlights**
 
-- Public FastAPI API on Render using **TF-IDF + tuned XGBoost** (~97.08% test accuracy)
-- Fine-tuned `bert-base-uncased` available for local inference (weights not included in the Render deployment)
-- Unified inference layer across classical ML and Transformer paths
-- Docker, CI, health/readiness endpoints, Streamlit demo
-- BERT cloud deployment remains planned
+* Tuned TF-IDF + XGBoost pipeline achieving approximately **97.08% test accuracy**
+* Public FastAPI deployment using **XGBoost as the production inference model**
+* Fine-tuned `bert-base-uncased` supported and verified for **local inference**
+* Streamlit frontend communicating with the FastAPI backend over HTTP
+* Dockerized backend with GitHub Actions CI and health/readiness endpoints
 
-**Tech:** Python • FastAPI • Scikit-learn • XGBoost • Transformers • Docker • Render
+**Tech:** Python · FastAPI · Scikit-learn · XGBoost · Transformers · Streamlit · Docker · Render
+
 
 ---
 
