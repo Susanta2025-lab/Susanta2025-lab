@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 400" width="1600" height="400" role="img" aria-labelledby="bannerTitleDark bannerDescDark">
   <title id="bannerTitleDark">Susanta Hazra &#8212; AI Engineer</title>
-  <desc id="bannerDescDark">Profile banner for Susanta Hazra, AI Engineer specializing in Generative AI, RAG, AI Agents, and AI Solution Architecture. Visual theme transitions from scientific structure to production AI systems.</desc>
+  <desc id="bannerDescDark">Profile banner for Susanta Hazra, AI Engineer specializing in Generative AI, RAG, AI Agents, AI Solution Architecture, and production-oriented AI systems.</desc>
   <defs>
     <linearGradient id="bgDark" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0B1220"/>

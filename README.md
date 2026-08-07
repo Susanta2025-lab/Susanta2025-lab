@@ -8,279 +8,153 @@
 
 # Hi, I'm Susanta Hazra 👋
 
-# AI Engineer | Generative AI | LLM Applications | AI Agents | Full-Stack AI Systems | MLOps
+### AI Engineer | LLMs • RAG • AI Agents | AI Solution Architecture | Full-Stack AI Systems
 
-I design and build production-oriented AI applications that combine Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), AI agents, modern APIs, and intuitive user interfaces.
+I design and build production-oriented AI systems combining LLMs, Retrieval-Augmented Generation, agentic workflows, APIs, and modern web interfaces.
 
-My work focuses on transforming AI concepts into modular, maintainable, deployable systems that solve real-world business problems while applying the rigor developed through many years of scientific research.
-
----
-
-## 🚀 About Me
-
-- AI Engineer specializing in Generative AI, LLM applications, RAG, AI Agents, and MLOps
-- Building production-oriented AI systems from architecture to deployment
-- Passionate about scalable AI architectures, observability, maintainability, and real-world impact
-- Currently focused on enterprise AI applications, intelligent automation, and agentic workflows
+My focus is modular architecture: maintainable services, clear provider boundaries, and deployable applications that solve real business problems—from backend APIs and inference layers to full-stack AI products.
 
 ---
 
 # 🚀 Featured Projects
 
----
+## Enterprise Communication Intelligence
 
-## 🩺 MediChrono Insight — AI-Powered Medical Chronology Platform
+**Enterprise Communication Intelligence Platform**
 
-**Repository**
+[Repository](https://github.com/Susanta2025-lab/enterprise-communication-intelligence)
 
-https://github.com/Susanta2025-lab/medichrono-insight
+![Python](https://img.shields.io/badge/Python-FastAPI-009688?logo=python&logoColor=white)
+![Architecture](https://img.shields.io/badge/Clean_Architecture-Provider_Abstraction-0EA5E9)
+![Testing](https://img.shields.io/badge/Pytest-Automated-green)
+![Status](https://img.shields.io/badge/Status-Architecture_%26_API_Foundation-blue)
 
-**Live Demo**
-
-https://medichrono-insight.vercel.app/
-
-![React](https://img.shields.io/badge/React-Frontend-61DAFB?logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python)
-![LLM](https://img.shields.io/badge/OpenRouter-Gemini-purple)
-![Vercel](https://img.shields.io/badge/Vercel-Deployed-black?logo=vercel)
-![Status](https://img.shields.io/badge/Status-Live-brightgreen)
-
-AI-powered medical chronology platform designed for legal professionals, insurance companies, and medical reviewers.
+Provider-independent enterprise AI platform for transforming business communications into structured intelligence, built with Clean Architecture, FastAPI, dependency injection, automated testing, and a multi-cloud provider abstraction designed for Azure AI Foundry and Amazon Bedrock.
 
 ### Highlights
 
-- AI-generated medical case summaries
-- Interactive medical timeline visualization
-- Advanced search and filtering
-- Event inspection interface
-- Expandable treatment history
-- Modern React frontend
-- FastAPI backend
-- Production-ready architecture
-- Live deployment
+- Clean Architecture with a provider-independent AI layer
+- Configuration-driven provider factory and dependency injection
+- Versioned REST API (`POST /api/v1/communications/analyze`)
+- Structured logging, exception hierarchy, and health/readiness endpoints
+- Automated tests, ADRs, and Mermaid architecture diagrams
+- Next: Azure AI Foundry and Amazon Bedrock integrations
 
-**Tech Stack**
-
-React • TypeScript • Vite • Tailwind CSS • FastAPI • Python • OpenRouter • Gemini • Vercel
+**Tech:** Python • FastAPI • Pydantic • Pytest • Ruff • Clean Architecture • Azure AI Foundry (planned) • Amazon Bedrock (planned)
 
 ---
 
-## 🧠 Estudio PolyMind — Multi-LLM RAG & Agent Orchestration Platform
+## Estudio PolyMind — Multi-LLM RAG & Agent Orchestration
 
-**Repository**
+[Repository](https://github.com/Susanta2025-lab/estudio-polymind-llm-orchestration)
 
-https://github.com/Susanta2025-lab/estudio-polymind-llm-orchestration
-
-![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python)
-![FastAPI](https://img.shields.io/badge/FastAPI-Backend-green?logo=fastapi)
-![Streamlit](https://img.shields.io/badge/Streamlit-UI-red?logo=streamlit)
+![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-Agentic-purple)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-VectorDB-blue)
-![Docker](https://img.shields.io/badge/Docker-Container-blue?logo=docker)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-CI-blue?logo=githubactions)
-![Status](https://img.shields.io/badge/Status-Production_Ready-brightgreen)
+![RAG](https://img.shields.io/badge/RAG-Hybrid_Retrieval-0EA5E9)
+![Docker](https://img.shields.io/badge/Docker-Containerized-2496ED?logo=docker&logoColor=white)
+![CI](https://img.shields.io/badge/GitHub_Actions-CI-2088FF?logo=githubactions&logoColor=white)
 
-Production-style AI platform demonstrating modern LLM orchestration and Retrieval-Augmented Generation.
-
-### Highlights
-
-- Multi-LLM orchestration
-- LangGraph workflows
-- Hybrid Retrieval
-- Semantic routing
-- Cross-encoder reranking
-- Session memory
-- Dockerized deployment
-- GitHub Actions CI
-- Modular architecture
-
-**Tech Stack**
-
-Python • FastAPI • LangGraph • ChromaDB • Ollama • Streamlit • Docker • GitHub Actions
-
----
-
-## 🔍 Fatocheck — Fake News Detection API
-
-**Repository**
-
-https://github.com/Susanta2025-lab/Fatocheck
-
-![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python)
-![FastAPI](https://img.shields.io/badge/FastAPI-API-green?logo=fastapi)
-![Docker](https://img.shields.io/badge/Docker-Container-blue?logo=docker)
-![Render](https://img.shields.io/badge/Render-Deployed-purple?logo=render)
-![BERT](https://img.shields.io/badge/BERT-Transformer-orange)
-![Status](https://img.shields.io/badge/Status-Production_Ready-brightgreen)
-
-Production-ready fake news detection platform combining classical machine learning and Transformer models.
+Local multi-LLM RAG and agent orchestration platform demonstrating semantic routing, hybrid retrieval, reranking, conversational memory, tool use, FastAPI services, Docker, and CI.
 
 ### Highlights
 
-- XGBoost + TF-IDF pipeline
-- Fine-tuned BERT model
-- REST API
-- Dockerized deployment
-- Render deployment
-- Production architecture
+- Multi-LLM orchestration (Ollama, Mistral, Qwen, Gemma, Phi)
+- LangGraph workflows with tool calling and session memory
+- Hybrid dense + BM25 retrieval with Reciprocal Rank Fusion
+- Cross-encoder reranking and semantic routing
+- ChromaDB vector search, Streamlit UI, evaluation/benchmarking
+- Dockerized services with GitHub Actions CI
 
-**Tech Stack**
-
-Python • FastAPI • Scikit-Learn • XGBoost • Transformers • Docker • Render
+**Tech:** Python • FastAPI • LangGraph • ChromaDB • Ollama • Streamlit • Docker • GitHub Actions
 
 ---
 
-## ⚡ Grid Intelligence — Energy Price Forecasting Platform
+## FatoCheck — Fake News Detection API
 
-**Repository**
+[Repository](https://github.com/Susanta2025-lab/Fatocheck)
 
-https://github.com/xucenying/grid-intelligence
+![Python](https://img.shields.io/badge/Python-FastAPI-009688?logo=python&logoColor=white)
+![XGBoost](https://img.shields.io/badge/Production-TF--IDF_%2B_XGBoost-orange)
+![Accuracy](https://img.shields.io/badge/Test_Accuracy-~97.08%25-brightgreen)
+![Docker](https://img.shields.io/badge/Docker-Render-2496ED?logo=docker&logoColor=white)
+![BERT](https://img.shields.io/badge/BERT-Local_%2F_Planned_Cloud-8B5CF6)
 
-Collaborative end-to-end energy forecasting platform for the German electricity market.
+Deployed NLP classification API using a tuned TF-IDF + XGBoost pipeline, with local fine-tuned BERT inference, Docker, CI, FastAPI, and a Streamlit demo.
 
 ### Highlights
 
-- Automated data pipelines
-- Time-series forecasting
-- Transformer models
-- XGBoost spike prediction
-- FastAPI backend
-- Docker deployment
-- Google Cloud integration
+- Public FastAPI API on Render using **TF-IDF + tuned XGBoost** (~97.08% test accuracy)
+- Fine-tuned `bert-base-uncased` available for local inference (weights not included in the Render deployment)
+- Unified inference layer across classical ML and Transformer paths
+- Docker, CI, health/readiness endpoints, Streamlit demo
+- BERT cloud deployment remains planned
 
-**Tech Stack**
-
-Python • PyTorch • FastAPI • Docker • GCP • Streamlit
+**Tech:** Python • FastAPI • Scikit-learn • XGBoost • Transformers • Docker • Render
 
 ---
 
-# 📂 Portfolio Overview
+## MediChrono Insight — AI-Powered Medical Chronology Platform
 
-| Project | Focus | Technologies |
-|----------|-------|--------------|
-| MediChrono Insight | AI Medical Platform | React, FastAPI, LLMs |
-| Estudio PolyMind | Multi-LLM RAG Platform | LangGraph, ChromaDB |
-| Fatocheck | NLP Classification | BERT, XGBoost |
-| Grid Intelligence | Time-Series Forecasting | PyTorch, FastAPI |
+[Repository](https://github.com/Susanta2025-lab/medichrono-insight) · [Live Demo](https://medichrono-insight.vercel.app/)
 
----
+![React](https://img.shields.io/badge/React-TypeScript-61DAFB?logo=react&logoColor=black)
+![FastAPI](https://img.shields.io/badge/FastAPI-OpenRouter-009688?logo=fastapi&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini_2.5_Flash-LLM-8B5CF6)
+![Deploy](https://img.shields.io/badge/Vercel_%2B_Render-Live-black)
+![Status](https://img.shields.io/badge/Status-Portfolio_Demo-blue)
 
-# 🤖 AI Engineering Expertise
+Live full-stack AI portfolio application, evolved from a SWANS Applied AI Hackathon prototype, for interactive medical chronology visualization and AI-assisted case summarization.
 
-### Generative AI
+### Highlights
 
-- Large Language Models (LLMs)
-- Retrieval-Augmented Generation (RAG)
-- AI Agents
-- LangGraph
-- LangChain
-- Prompt Engineering
-- Tool Calling
-- Function Calling
-- Semantic Routing
-- Hybrid Retrieval
-- Cross-Encoder Reranking
-- Conversational Memory
+- React/TypeScript frontend with interactive medical timeline
+- Client-side Excel chronology upload and workbook parsing
+- Search, filtering, event inspector, and treatment history views
+- FastAPI backend with OpenRouter + Google Gemini 2.5 Flash
+- Live Vercel frontend and Render backend (legal-tech use case)
+- Known limits: no automated tests or persistence yet; single-worksheet uploads; some mapping/grouping still incomplete
+
+**Tech:** React • TypeScript • FastAPI • OpenRouter • Gemini • Vercel • Render
 
 ---
 
-### Machine Learning
+## Selected Collaboration
 
-- Supervised Learning
-- NLP
-- Transformer Models
-- BERT
-- XGBoost
-- Scikit-Learn
-- Time-Series Forecasting
-- Model Evaluation
+### Grid Intelligence — Energy Price Forecasting
 
----
+[Repository](https://github.com/xucenying/grid-intelligence)
 
-### Backend Development
+Collaborative ML/MLOps project for German electricity-price forecasting using statistical, tree-based, and deep-learning models with FastAPI, Docker, Streamlit, and GCP.
 
-- FastAPI
-- REST APIs
-- Python
-- Pydantic
-- Async Programming
+**Tech:** Prophet • ARIMA • XGBoost • LSTM • Transformer • FastAPI • Docker • Streamlit • GCP
 
 ---
 
-### Frontend Development
+# 🛠 Core Engineering Stack
 
-- React
-- TypeScript
-- Vite
-- Tailwind CSS
-- Streamlit
-
----
-
-### AI Infrastructure
-
-- ChromaDB
-- Vector Databases
-- Docker
-- GitHub Actions
-- CI/CD
-- Render
-- Vercel
-- Google Cloud
-- Azure AI Services
+| Area | Capabilities |
+|------|----------------|
+| **AI / GenAI** | LLMs, RAG, AI Agents, LangGraph, LangChain, OpenRouter, Ollama, Prompt Engineering, Tool Calling, Hybrid Retrieval, Reranking, Vector Search |
+| **Backend / Architecture** | Python, FastAPI, REST APIs, Pydantic, Clean Architecture, Dependency Injection, Async APIs |
+| **ML / NLP** | Scikit-learn, XGBoost, Transformers, BERT, PyTorch, Model Evaluation, Time-Series Forecasting |
+| **Frontend** | React, TypeScript, Vite, Tailwind CSS, Streamlit |
+| **Infrastructure / MLOps** | Docker, GitHub Actions, CI/CD, Render, Vercel, GCP · Azure AI Foundry (learning / planned) · Amazon Bedrock (planned) |
 
 ---
 
-### Programming Languages
+# 🎯 Current Engineering Focus
 
-- Python
-- TypeScript
-- JavaScript
-- SQL
-- Bash
-
----
-
-# 🌍 Professional Background
-
-Before transitioning into AI Engineering, I spent over a decade conducting scientific research in computational and experimental chemistry.
-
-That experience strengthened my ability to:
-
-- solve complex analytical problems
-- design reproducible workflows
-- evaluate evidence critically
-- build reliable systems
-- communicate technical concepts effectively
-
-These principles continue to guide my approach to AI system design.
+- AI Solution Architecture
+- Enterprise LLM applications
+- Retrieval-Augmented Generation
+- Agentic workflows
+- Provider-independent AI architectures
+- Full-stack AI applications
+- Cloud AI integration and MLOps
 
 ---
 
-# 🎯 Current Focus
+# 📫 Connect
 
-Currently building production-oriented AI systems involving:
-
-- AI Agents
-- Enterprise LLM Applications
-- Retrieval-Augmented Generation (RAG)
-- Multi-Agent Workflows
-- Intelligent Document Processing
-- AI-powered Decision Support
-- Production API Development
-- Full-Stack AI Applications
-- Cloud Deployment
-- MLOps
-
----
-
-# 📫 Connect With Me
-
-- LinkedIn: https://www.linkedin.com/in/susantahazra
-- GitHub: https://github.com/Susanta2025-lab
-
----
-
-*"Building practical AI systems that bridge research, engineering, and real-world deployment."*
+- [LinkedIn](https://www.linkedin.com/in/susantahazra)
+- [GitHub](https://github.com/Susanta2025-lab)
