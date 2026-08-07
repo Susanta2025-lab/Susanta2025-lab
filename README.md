@@ -1,3 +1,13 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/github-profile-banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/github-profile-banner-light.svg">
+  <img
+    alt="Susanta Hazra — AI Engineer building production-oriented AI systems"
+    src="./assets/github-profile-banner-light.svg"
+    width="100%"
+  >
+</picture>
+
 # Hi, I'm Susanta Hazra 👋
 
 # AI Engineer | Generative AI | LLM Applications | AI Agents | Full-Stack AI Systems | MLOps

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1584 396" width="1584" height="396" role="img" aria-labelledby="liTitle liDesc">
+  <title id="liTitle">AI Engineer &#8212; Generative AI, RAG, AI Agents</title>
+  <desc id="liDesc">LinkedIn profile banner for an AI Engineer specializing in Generative AI, RAG, AI Agents, AI Solution Architecture, and production-oriented AI systems.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1220"/>
+      <stop offset="50%" stop-color="#101827"/>
+      <stop offset="100%" stop-color="#0E1524"/>
+    </linearGradient>
+    <linearGradient id="flow" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#67E8F9" stop-opacity="0.05"/>
+      <stop offset="30%" stop-color="#38BDF8" stop-opacity="0.35"/>
+      <stop offset="65%" stop-color="#818CF8" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#A78BFA" stop-opacity="0.12"/>
+    </linearGradient>
+    <linearGradient id="nodeGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#67E8F9"/>
+      <stop offset="100%" stop-color="#818CF8"/>
+    </linearGradient>
+    <radialGradient id="vignette" cx="58%" cy="48%" r="58%">
+      <stop offset="0%" stop-color="#1E293B" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#0B1220" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="textFade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0B1220" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#0B1220" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#0B1220" stop-opacity="0.35"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1584" height="396" fill="url(#bg)"/>
+  <rect width="1584" height="396" fill="url(#vignette)"/>
+
+  <!-- Subtle architecture grid (mid-right, low opacity) -->
+  <g opacity="0.055" stroke="#94A3B8" stroke-width="1" fill="none">
+    <path d="M720 30 H1500 M720 70 H1500 M720 110 H1500 M720 150 H1500 M720 190 H1500 M720 230 H1500 M720 270 H1500 M720 310 H1500 M720 350 H1500"/>
+    <path d="M760 20 V376 M800 20 V376 M840 20 V376 M880 20 V376 M920 20 V376 M960 20 V376 M1000 20 V376 M1040 20 V376 M1080 20 V376 M1120 20 V376 M1160 20 V376 M1200 20 V376 M1240 20 V376 M1280 20 V376 M1320 20 V376 M1360 20 V376 M1400 20 V376 M1440 20 V376"/>
+  </g>
+
+  <!-- LEFT ZONE (0-35%): decorative network only — safe under profile photo -->
+  <g opacity="0.55">
+    <g fill="none" stroke="#475569" stroke-width="1.2">
+      <line x1="70" y1="80" x2="160" y2="140"/>
+      <line x1="160" y1="140" x2="240" y2="90"/>
+      <line x1="160" y1="140" x2="250" y2="200"/>
+      <line x1="240" y1="90" x2="340" y2="120"/>
+      <line x1="250" y1="200" x2="340" y2="170"/>
+      <line x1="340" y1="120" x2="340" y2="170"/>
+      <line x1="160" y1="140" x2="120" y2="260"/>
+      <line x1="250" y1="200" x2="200" y2="300"/>
+      <line x1="340" y1="170" x2="280" y2="310"/>
+      <line x1="120" y1="260" x2="200" y2="300"/>
+      <line x1="200" y1="300" x2="280" y2="310"/>
+      <line x1="340" y1="120" x2="430" y2="100"/>
+      <line x1="340" y1="170" x2="440" y2="210"/>
+      <line x1="430" y1="100" x2="500" y2="150"/>
+      <line x1="440" y1="210" x2="500" y2="150"/>
+    </g>
+    <g fill="none" stroke="#38BDF8" stroke-width="1.3" opacity="0.45">
+      <path d="M70 80 C110 105, 140 125, 160 140"/>
+      <path d="M160 140 C200 115, 220 100, 240 90"/>
+      <path d="M340 120 C385 108, 410 102, 430 100"/>
+    </g>
+    <g fill="none" stroke="#818CF8" stroke-width="1.25" opacity="0.4">
+      <path d="M160 140 C200 175, 230 190, 250 200"/>
+      <path d="M340 170 C390 195, 415 205, 440 210"/>
+      <path d="M200 300 C240 306, 265 308, 280 310"/>
+    </g>
+    <!-- Soft modular blocks (decorative; upper/mid left, not critical) -->
+    <g>
+      <rect x="220" y="72" width="42" height="30" rx="3.5" fill="#152033" stroke="#38BDF8" stroke-width="1.1" opacity="0.7"/>
+      <rect x="318" y="148" width="42" height="30" rx="3.5" fill="#152033" stroke="#818CF8" stroke-width="1.1" opacity="0.7"/>
+      <g stroke="#64748B" stroke-width="1" opacity="0.45">
+        <line x1="228" y1="82" x2="252" y2="82"/>
+        <line x1="228" y1="89" x2="246" y2="89"/>
+        <line x1="326" y1="158" x2="350" y2="158"/>
+        <line x1="326" y1="165" x2="344" y2="165"/>
+      </g>
+    </g>
+    <g>
+      <circle cx="70" cy="80" r="4" fill="#67E8F9" opacity="0.7"/>
+      <circle cx="160" cy="140" r="5.5" fill="url(#nodeGlow)" opacity="0.85"/>
+      <circle cx="240" cy="90" r="4" fill="#38BDF8" opacity="0.75"/>
+      <circle cx="250" cy="200" r="4" fill="#818CF8" opacity="0.75"/>
+      <circle cx="340" cy="120" r="4.5" fill="#67E8F9" opacity="0.8"/>
+      <circle cx="340" cy="170" r="4.5" fill="#A78BFA" opacity="0.8"/>
+      <circle cx="430" cy="100" r="4" fill="#38BDF8" opacity="0.7"/>
+      <circle cx="440" cy="210" r="4" fill="#818CF8" opacity="0.7"/>
+      <circle cx="500" cy="150" r="5" fill="url(#nodeGlow)" opacity="0.85"/>
+      <circle cx="120" cy="260" r="3.5" fill="#475569" opacity="0.8"/>
+      <circle cx="200" cy="300" r="4" fill="#38BDF8" opacity="0.65"/>
+      <circle cx="280" cy="310" r="4" fill="#818CF8" opacity="0.65"/>
+    </g>
+    <g fill="none" stroke="#38BDF8" stroke-width="1" opacity="0.22">
+      <circle cx="160" cy="140" r="12"/>
+      <circle cx="500" cy="150" r="11"/>
+    </g>
+  </g>
+
+  <!-- CENTER TRANSITION: data-flow into content zone -->
+  <path d="M480 160 C580 140, 660 185, 760 165 S920 130, 1040 155" fill="none" stroke="url(#flow)" stroke-width="1.5"/>
+  <path d="M500 220 C620 245, 720 195, 840 220 S980 255, 1120 230" fill="none" stroke="url(#flow)" stroke-width="1.2" opacity="0.7"/>
+
+  <!-- Mid network hubs bridging left graphic to text -->
+  <g opacity="0.75">
+    <g fill="none" stroke="#475569" stroke-width="1.15">
+      <line x1="500" y1="150" x2="580" y2="120"/>
+      <line x1="500" y1="150" x2="590" y2="200"/>
+      <line x1="580" y1="120" x2="660" y2="145"/>
+      <line x1="590" y1="200" x2="660" y2="145"/>
+      <line x1="660" y1="145" x2="720" y2="100"/>
+      <line x1="660" y1="145" x2="730" y2="190"/>
+    </g>
+    <circle cx="580" cy="120" r="4" fill="#38BDF8" opacity="0.8"/>
+    <circle cx="590" cy="200" r="4" fill="#818CF8" opacity="0.8"/>
+    <circle cx="660" cy="145" r="5" fill="url(#nodeGlow)" opacity="0.9"/>
+    <circle cx="720" cy="100" r="3.5" fill="#67E8F9" opacity="0.7"/>
+    <circle cx="730" cy="190" r="3.5" fill="#A78BFA" opacity="0.7"/>
+    <!-- Compact architecture modules near text start -->
+    <rect x="640" y="70" width="44" height="28" rx="3.5" fill="#152033" stroke="#38BDF8" stroke-width="1.1" opacity="0.75"/>
+    <rect x="705" y="168" width="44" height="28" rx="3.5" fill="#152033" stroke="#818CF8" stroke-width="1.1" opacity="0.7"/>
+    <g stroke="#64748B" stroke-width="1" opacity="0.5">
+      <line x1="648" y1="80" x2="672" y2="80"/>
+      <line x1="648" y1="86" x2="666" y2="86"/>
+      <line x1="713" y1="178" x2="737" y2="178"/>
+      <line x1="713" y1="184" x2="731" y2="184"/>
+    </g>
+  </g>
+
+  <!-- Soft readability panel behind text (center-right) -->
+  <rect x="620" y="95" width="760" height="210" fill="url(#textFade)" opacity="0.85"/>
+
+  <!-- CENTER-RIGHT TEXT (approx 42–86%): professional positioning -->
+  <g font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif">
+    <text x="640" y="175" fill="#F8FAFC" font-size="30" font-weight="700" letter-spacing="-0.3">AI Engineer &#183; Generative AI &#183; RAG &#183; AI Agents</text>
+    <text x="640" y="216" fill="#CBD5E1" font-size="16" font-weight="500" letter-spacing="0.15">AI Solution Architecture &#183; Production-oriented AI Systems</text>
+    <text x="640" y="252" fill="#94A3B8" font-size="14" font-weight="400" letter-spacing="0.25">Architecture &#183; Agents &#183; APIs &#183; MLOps</text>
+  </g>
+
+  <!-- Accent underline under primary line -->
+  <rect x="640" y="185" width="60" height="2.5" rx="1.25" fill="#38BDF8" opacity="0.85"/>
+
+  <!-- FAR-RIGHT breathing room: sparse nodes only, no critical content -->
+  <g opacity="0.45">
+    <g fill="none" stroke="#475569" stroke-width="1.1">
+      <line x1="1380" y1="90" x2="1450" y2="130"/>
+      <line x1="1450" y1="130" x2="1510" y2="100"/>
+      <line x1="1450" y1="130" x2="1500" y2="190"/>
+      <line x1="1380" y1="240" x2="1450" y2="210"/>
+      <line x1="1450" y1="210" x2="1500" y2="190"/>
+    </g>
+    <circle cx="1380" cy="90" r="3.5" fill="#38BDF8"/>
+    <circle cx="1450" cy="130" r="4.5" fill="url(#nodeGlow)"/>
+    <circle cx="1510" cy="100" r="3.5" fill="#67E8F9"/>
+    <circle cx="1500" cy="190" r="3.5" fill="#818CF8"/>
+    <circle cx="1380" cy="240" r="3.5" fill="#A78BFA"/>
+    <circle cx="1450" cy="210" r="3.5" fill="#38BDF8"/>
+  </g>
+</svg>
