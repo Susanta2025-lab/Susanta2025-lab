@@ -1,12 +1,10 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/github-profile-banner-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/github-profile-banner-light.svg">
+<p align="center">
   <img
-    alt="Susanta Hazra — AI Engineer building production-oriented AI systems"
     src="./assets/github-profile-banner-dark.svg"
+    alt="Susanta Hazra — AI Engineer building production-oriented AI systems"
     width="100%"
   >
-</picture>
+</p>
 
 # Hi, I'm Susanta Hazra 👋
 
