@@ -18,7 +18,7 @@ My focus is modular architecture: maintainable services, clear provider boundari
 
 # 🚀 Featured Projects
 
-## Enterprise Communication Intelligence
+## 🏢 Enterprise Communication Intelligence
 
 **Enterprise Communication Intelligence Platform**
 
@@ -44,7 +44,7 @@ Provider-independent enterprise AI platform for transforming business communicat
 
 ---
 
-## Estudio PolyMind — Multi-LLM RAG & Agent Orchestration
+## 🧠 Estudio PolyMind — Multi-LLM RAG & Agent Orchestration
 
 [Repository](https://github.com/Susanta2025-lab/estudio-polymind-llm-orchestration)
 
@@ -69,7 +69,7 @@ Local-first multi-LLM RAG and agent orchestration platform demonstrating semanti
 
 ---
 
-## FatoCheck — Fake News Detection API
+## 📰 FatoCheck — Fake News Detection API
 
 Deployed NLP classification system using a tuned **TF-IDF + XGBoost** pipeline, with local fine-tuned **BERT** inference, a FastAPI backend, Streamlit frontend, Docker, and automated CI.
 
@@ -98,7 +98,7 @@ Deployed NLP classification system using a tuned **TF-IDF + XGBoost** pipeline, 
 
 ---
 
-## MediChrono Insight — AI-Powered Medical Chronology Platform
+## 🩺 MediChrono Insight — AI-Powered Medical Chronology Platform
 
 [Repository](https://github.com/Susanta2025-lab/medichrono-insight) · [Live Demo](https://medichrono-insight.vercel.app/)
 
@@ -125,7 +125,7 @@ Live full-stack AI portfolio application, evolved from a SWANS Applied AI Hackat
 
 ## Selected Collaboration
 
-### Grid Intelligence — Energy Price Forecasting
+### ⚡ Grid Intelligence — Energy Price Forecasting
 
 [Repository](https://github.com/xucenying/grid-intelligence)
 
