@@ -18,29 +18,33 @@ My focus is modular architecture: maintainable services, clear provider boundari
 
 # 🚀 Featured Projects
 
-## 🏢 Enterprise Communication Intelligence
+## 🏢 Enterprise Communication Intelligence (ECI)
 
-**Enterprise Communication Intelligence Platform**
+**Production-oriented enterprise AI communication platform — Register. Connect. Analyze.**
 
 [Repository](https://github.com/Susanta2025-lab/enterprise-communication-intelligence)
 
 ![Python](https://img.shields.io/badge/Python-FastAPI-009688?logo=python&logoColor=white)
 ![Architecture](https://img.shields.io/badge/Clean_Architecture-Provider_Abstraction-0EA5E9)
-![Testing](https://img.shields.io/badge/Pytest-Automated-green)
-![Status](https://img.shields.io/badge/Status-Multi--Cloud_Enterprise_AI-blue)
+![Cloud](https://img.shields.io/badge/Cloud-Azure_%2B_AWS-2563EB)
+![RBAC](https://img.shields.io/badge/RBAC-Platform_Owner-7C3AED)
+![Status](https://img.shields.io/badge/Status-Phase_19_Validated-success)
 
-Provider-independent enterprise AI platform for transforming business communications into structured, actionable intelligence, built with Clean Architecture, FastAPI, multi-cloud AI providers, identity-aware persistence, communication connectors, and approval-gated workflow automation.
+Provider-independent platform for turning business communications into structured, actionable intelligence while keeping users in control of mailbox access, attachment retrieval, AI analysis, workflow approval, and external side effects.
 
 ### Highlights
 
-- Clean Architecture with provider-independent AI, persistence, connector, and workflow boundaries
-- Microsoft Foundry and Amazon Bedrock provider implementations with structured model outputs
-- Same Dockerized application deployed across Azure Container Apps and AWS ECS Fargate
-- OIDC/JWT authentication, permission-based authorization, and Microsoft Entra ID integration
-- PostgreSQL user-scoped persistence plus Gmail and Microsoft Graph read-only connector adapters
-- GitHub Actions CI/CD, cloud-native observability, and approval-gated workflow actions with a deterministic execution boundary
+- Clean Architecture with provider-independent AI, persistence, connector, credential-store, and workflow boundaries
+- Independent multi-cloud deployments: Azure Static Web Apps + Container Apps + PostgreSQL + Microsoft Foundry, and AWS CloudFront/S3 + ECS Fargate + RDS + Amazon Bedrock
+- Cloud AI implementations validated with **GPT-5.4-mini** on Microsoft Foundry and **Claude Haiku 4.5** on Amazon Bedrock
+- Microsoft Entra External ID application login, delegated `communications:*` permissions, and persisted application RBAC with server-side **Platform Owner** authorization
+- Gmail and Microsoft Graph / Outlook mailbox connectors with mailbox OAuth kept separate from ECI application identity
+- Secure Attachment Intelligence: metadata-first handling, explicit per-attachment analysis, ClamAV-before-parsing/AI, bounded PDF/DOCX/TXT support, and fail-closed behavior
+- Human-controlled workflow states for Propose → Approve / Reject → Execute (Send); AI analysis and attachment analysis never send automatically
+- PostgreSQL persistence, Azure Key Vault / AWS Secrets Manager credential references, GitHub OIDC CI/CD, and cloud-native observability
+- Technical deployment validation completed on both Azure and AWS; external business-user verification remains deferred
 
-**Tech:** Python • FastAPI • Pydantic • PostgreSQL • Docker • Microsoft Foundry • Amazon Bedrock • Azure Container Apps • AWS ECS Fargate • GitHub Actions
+**Tech:** Python • FastAPI • React • TypeScript • PostgreSQL • Docker • Microsoft Entra External ID • Microsoft Foundry • Amazon Bedrock • Azure Container Apps • AWS ECS Fargate • RDS • CloudFront • GitHub Actions
 
 ---
 
@@ -51,21 +55,25 @@ Provider-independent enterprise AI platform for transforming business communicat
 ![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-Agentic-purple)
 ![RAG](https://img.shields.io/badge/RAG-Hybrid_Retrieval-0EA5E9)
-![Docker](https://img.shields.io/badge/Docker-Containerized-2496ED?logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-Helm-326CE5?logo=kubernetes&logoColor=white)
+![Observability](https://img.shields.io/badge/Observability-Prometheus-E6522C?logo=prometheus&logoColor=white)
 ![CI](https://github.com/Susanta2025-lab/estudio-polymind-llm-orchestration/actions/workflows/ci.yml/badge.svg)
 
-Local-first multi-LLM RAG and agent orchestration platform demonstrating semantic routing, hybrid retrieval, reranking, conversational memory, tool use, model routing, FastAPI services, Docker, and CI.
+Production-style multi-LLM RAG and agent orchestration platform with provider-neutral inference, horizontally scalable state boundaries, Kubernetes deployment controls, security hardening, and production-oriented observability.
 
 ### Highlights
 
-- Multi-LLM orchestration with Ollama using Mistral, Qwen 2.5, Gemma 2, and Phi-3 Mini
-- LangGraph workflows with tool calling, semantic routing, and persistent session memory
-- Hybrid dense + BM25 retrieval fused with Reciprocal Rank Fusion
-- Cross-encoder reranking for improved context relevance and reduced retrieval noise
-- ChromaDB vector search, document ingestion, Streamlit UI, and evaluation workflows
-- Dockerized services with GitHub Actions CI and local-first inference
+- Multi-LLM orchestration with logical model roles decoupled from provider-specific model identifiers
+- Provider-neutral inference through local **Ollama** or an **OpenAI-compatible adapter** for a separately deployed vLLM service
+- LangGraph workflows with semantic routing, tool calling, hybrid dense + BM25 retrieval, Reciprocal Rank Fusion, and cross-encoder reranking
+- Conversation memory abstraction with local file mode for development and shared **Redis** mode for replica-safe production deployments
+- Vector-store abstraction with local Chroma for development and external **Chroma HTTP** for horizontally scaled replicas
+- FastAPI query and NDJSON streaming APIs with production bearer-token boundaries, readiness checks, sanitized failure handling, and request IDs
+- Production Helm chart with NetworkPolicy, non-root/read-only container hardening, bounded writable `/tmp`, health/readiness probes, and rollout-safe streaming behavior
+- Prometheus-compatible observability with bounded metrics, optional scrape annotations / ServiceMonitor, validated multi-replica aggregation, recording rules, SLIs, and candidate alerts
+- Phase 14 observability/capacity work validated successfully; HPA deployment remains intentionally deferred until representative multi-node infrastructure and external inference capacity can be calibrated
 
-**Tech:** Python • FastAPI • LangGraph • ChromaDB • Ollama • Sentence Transformers • BM25 • Streamlit • Docker • GitHub Actions
+**Tech:** Python • FastAPI • LangGraph • ChromaDB • Redis • Ollama • vLLM/OpenAI-compatible APIs • Sentence Transformers • BM25 • Streamlit • Docker • Kubernetes • Helm • Prometheus • GitHub Actions
 
 ---
 
@@ -94,7 +102,6 @@ Deployed NLP classification system using a tuned **TF-IDF + XGBoost** pipeline, 
 * Streamlit frontend, Dockerized backend, GitHub Actions CI, and health/readiness endpoints
 
 **Tech:** Python · FastAPI · Scikit-learn · XGBoost · Transformers · BERT · Streamlit · Docker · Render
-
 
 ---
 
@@ -139,11 +146,11 @@ Collaborative ML/MLOps project for day-ahead electricity-price forecasting in th
 
 | Area | Capabilities |
 |------|----------------|
-| **AI / GenAI** | LLMs, RAG, AI Agents, LangGraph, LangChain, Microsoft Foundry, Amazon Bedrock, OpenRouter, Ollama, Prompt Engineering, Tool Calling, Hybrid Retrieval, Reranking, Vector Search |
-| **Backend / Architecture** | Python, FastAPI, REST APIs, Pydantic, Clean Architecture, Dependency Injection, Async APIs, OIDC/JWT, PostgreSQL |
+| **AI / GenAI** | LLMs, RAG, AI Agents, LangGraph, LangChain, Microsoft Foundry, Amazon Bedrock, OpenRouter, Ollama, vLLM/OpenAI-compatible APIs, Prompt Engineering, Tool Calling, Hybrid Retrieval, Reranking, Vector Search |
+| **Backend / Architecture** | Python, FastAPI, REST APIs, Pydantic, Clean Architecture, Dependency Injection, Async APIs, OIDC/JWT, Microsoft Entra External ID, PostgreSQL, Redis |
 | **ML / NLP** | Scikit-learn, XGBoost, Transformers, BERT, PyTorch, TensorFlow/Keras, Model Evaluation, Time-Series Forecasting |
 | **Frontend** | React, TypeScript, Vite, Tailwind CSS, Streamlit |
-| **Infrastructure / MLOps** | Docker, GitHub Actions, CI/CD, Azure Container Apps, AWS ECS Fargate, Azure, AWS, GCP, Render, Vercel, Cloud Observability |
+| **Infrastructure / MLOps** | Docker, Kubernetes, Helm, Prometheus, GitHub Actions, CI/CD, Azure Container Apps, AWS ECS Fargate, CloudFront, RDS, Azure, AWS, GCP, Render, Vercel, Cloud Observability |
 
 ---
 
@@ -154,8 +161,10 @@ Collaborative ML/MLOps project for day-ahead electricity-price forecasting in th
 - Retrieval-Augmented Generation
 - Agentic workflows and approval-gated automation
 - Provider-independent and multi-cloud AI architectures
+- Secure identity, RBAC, and external-service integration
+- Kubernetes deployment, observability, and capacity-aware scaling
 - Full-stack AI applications
-- Cloud AI integration, observability, and MLOps
+- Cloud AI integration and MLOps
 
 ---
 
