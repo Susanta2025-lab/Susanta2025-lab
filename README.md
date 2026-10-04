@@ -20,29 +20,30 @@ My focus is modular architecture: maintainable services, clear provider boundari
 
 ## 🏢 Enterprise Communication Intelligence (ECI)
 
-**Production-oriented enterprise AI communication platform — Register. Connect. Analyze.**
+**Production-oriented multi-cloud enterprise AI communication platform — Register. Connect. Analyze.**
 
-[Repository](https://github.com/Susanta2025-lab/enterprise-communication-intelligence)
+**[Azure Frontend](https://witty-island-03f5de51e.7.azurestaticapps.net)** · **[AWS Frontend](https://d1ut7j94w7lt3b.cloudfront.net)** · **[Repository](https://github.com/Susanta2025-lab/enterprise-communication-intelligence)**
 
 ![Python](https://img.shields.io/badge/Python-FastAPI-009688?logo=python&logoColor=white)
 ![Architecture](https://img.shields.io/badge/Clean_Architecture-Provider_Abstraction-0EA5E9)
 ![Cloud](https://img.shields.io/badge/Cloud-Azure_%2B_AWS-2563EB)
 ![RBAC](https://img.shields.io/badge/RBAC-Platform_Owner-7C3AED)
-![Status](https://img.shields.io/badge/Status-Phase_19_Validated-success)
+![Status](https://img.shields.io/badge/Status-Phase_22_Validated-success)
 
-Provider-independent platform for turning business communications into structured, actionable intelligence while keeping users in control of mailbox access, attachment retrieval, AI analysis, workflow approval, and external side effects.
+Provider-independent platform for turning business communications into structured, actionable intelligence while keeping users in control of mailbox access, attachment retrieval, AI analysis, business context, tracked obligations, workflow approval, and external side effects.
 
 ### Highlights
 
-- Clean Architecture with provider-independent AI, persistence, connector, credential-store, and workflow boundaries
+- Implemented and validated through **Phase 22**, including Business Context & Matter Intelligence, XLSX / Tabular Intelligence, and Action, Deadline & Obligation Tracking
+- Clean Architecture with provider-independent AI, persistence, connector, credential-store, workflow, business-context, and tracking boundaries
 - Independent multi-cloud deployments: Azure Static Web Apps + Container Apps + PostgreSQL + Microsoft Foundry, and AWS CloudFront/S3 + ECS Fargate + RDS + Amazon Bedrock
 - Cloud AI implementations validated with **GPT-5.4-mini** on Microsoft Foundry and **Claude Haiku 4.5** on Amazon Bedrock
 - Microsoft Entra External ID application login, delegated `communications:*` permissions, and persisted application RBAC with server-side **Platform Owner** authorization
 - Gmail and Microsoft Graph / Outlook mailbox connectors with mailbox OAuth kept separate from ECI application identity
-- Secure Attachment Intelligence: metadata-first handling, explicit per-attachment analysis, ClamAV-before-parsing/AI, bounded PDF/DOCX/TXT support, and fail-closed behavior
-- Human-controlled workflow states for Propose → Approve / Reject → Execute (Send); AI analysis and attachment analysis never send automatically
-- PostgreSQL persistence, Azure Key Vault / AWS Secrets Manager credential references, GitHub OIDC CI/CD, and cloud-native observability
-- Technical deployment validation completed on both Azure and AWS; external business-user verification remains deferred
+- Secure Attachment Intelligence with explicit per-attachment analysis, ClamAV-before-parsing/AI, bounded PDF/DOCX/TXT/XLSX handling, and fail-closed controls
+- Human-controlled Propose → Approve / Reject → Execute workflow; analysis, attachment intelligence, context suggestions, and tracking never send automatically
+- Durable Work Items support lifecycle, archive/restore, verified provenance, event history, optional Business Context association, and explicit due-date/time semantics
+- Technical deployment and scoped browser validation completed on both Azure and AWS; external business-user verification remains deferred
 
 **Tech:** Python • FastAPI • React • TypeScript • PostgreSQL • Docker • Microsoft Entra External ID • Microsoft Foundry • Amazon Bedrock • Azure Container Apps • AWS ECS Fargate • RDS • CloudFront • GitHub Actions
 
@@ -57,23 +58,25 @@ Provider-independent platform for turning business communications into structure
 ![RAG](https://img.shields.io/badge/RAG-Hybrid_Retrieval-0EA5E9)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-Helm-326CE5?logo=kubernetes&logoColor=white)
 ![Observability](https://img.shields.io/badge/Observability-Prometheus-E6522C?logo=prometheus&logoColor=white)
+![Autoscaling](https://img.shields.io/badge/HPA-Validated_in_Kind-22C55E)
 ![CI](https://github.com/Susanta2025-lab/estudio-polymind-llm-orchestration/actions/workflows/ci.yml/badge.svg)
 
-Production-style multi-LLM RAG and agent orchestration platform with provider-neutral inference, horizontally scalable state boundaries, Kubernetes deployment controls, security hardening, and production-oriented observability.
+Production-style multi-LLM RAG and agent orchestration platform with provider-neutral inference, externalized state boundaries, hardened Kubernetes deployment controls, production-oriented observability, and validated application autoscaling.
 
 ### Highlights
 
 - Multi-LLM orchestration with logical model roles decoupled from provider-specific model identifiers
-- Provider-neutral inference through local **Ollama** or an **OpenAI-compatible adapter** for a separately deployed vLLM service
+- Provider-neutral inference through local **Ollama** or an **OpenAI-compatible adapter** for a separately deployed vLLM-compatible service
 - LangGraph workflows with semantic routing, tool calling, hybrid dense + BM25 retrieval, Reciprocal Rank Fusion, and cross-encoder reranking
-- Conversation memory abstraction with local file mode for development and shared **Redis** mode for replica-safe production deployments
-- Vector-store abstraction with local Chroma for development and external **Chroma HTTP** for horizontally scaled replicas
-- FastAPI query and NDJSON streaming APIs with production bearer-token boundaries, readiness checks, sanitized failure handling, and request IDs
-- Production Helm chart with NetworkPolicy, non-root/read-only container hardening, bounded writable `/tmp`, health/readiness probes, and rollout-safe streaming behavior
-- Prometheus-compatible observability with bounded metrics, optional scrape annotations / ServiceMonitor, validated multi-replica aggregation, recording rules, SLIs, and candidate alerts
-- Phase 14 observability/capacity work validated successfully; HPA deployment remains intentionally deferred until representative multi-node infrastructure and external inference capacity can be calibrated
+- Shared-state boundaries using **Redis** for replica-safe conversation memory and external **Chroma HTTP** for horizontally scaled vector retrieval
+- FastAPI query and NDJSON streaming APIs with bearer-token boundaries, readiness checks, sanitized failures, request IDs, and rollout-safe streaming behavior
+- Helm-based Kubernetes deployment with NetworkPolicy, non-root/read-only containers, bounded writable `/tmp`, probes, and hardened operational defaults
+- Prometheus-compatible metrics, scrape/ServiceMonitor contracts, recording rules, SLIs, and candidate alerts for multi-replica operation
+- **Phase 15 PASS:** validated `autoscaling/v2` HPA control loop using per-pod active-query custom metrics through Prometheus and Prometheus Adapter
+- Kind validation demonstrated scale **2 → 4 → 2** under bounded authenticated load with all **120 requests successful**; production enablement still requires target-cluster and dependency-capacity calibration
+- Latest documented production enablement status: **READY WITH CONDITIONS**, with cloud-specific integration, dependency autoscaling, HA, and multi-node disruption work still deferred
 
-**Tech:** Python • FastAPI • LangGraph • ChromaDB • Redis • Ollama • vLLM/OpenAI-compatible APIs • Sentence Transformers • BM25 • Streamlit • Docker • Kubernetes • Helm • Prometheus • GitHub Actions
+**Tech:** Python • FastAPI • LangGraph • ChromaDB • Redis • Ollama • OpenAI-compatible APIs • Sentence Transformers • BM25 • Streamlit • Docker • Kubernetes • Helm • Prometheus • HPA • GitHub Actions
 
 ---
 
